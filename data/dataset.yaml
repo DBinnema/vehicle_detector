@@ -1,0 +1,11 @@
+# dataset.yaml
+path: ./data/visdrone_yolo  # root of your YOLO images/labels
+
+train: images/train
+val: images/val
+
+names:
+  0: car
+  1: van
+  2: truck
+  3: bus
