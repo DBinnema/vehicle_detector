@@ -1,0 +1,49 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# ----------------------------
+# Virtual Environment
+# ----------------------------
+venv/
+env/
+*.egg-info/
+
+# ----------------------------
+# Datasets and large files
+# ----------------------------
+data/
+*.zip
+*.tar.gz
+
+# ----------------------------
+# YOLO / Training outputs
+# ----------------------------
+runs/
+weights/
+*.pt
+*.onnx
+*.tflite
+*.engine
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
